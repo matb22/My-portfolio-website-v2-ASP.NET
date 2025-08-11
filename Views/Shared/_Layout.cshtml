@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApp</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+</head>
+<body>
+    <header>
+        <img src="~/img/emoji-dizzy-fill.svg" id="logo" />
+        <span class="logo">
+            MatbPlayer
+        </span>
+         <nav>
+                
+                <a href="/">Main</a>
+                <a href="https://github.com/matb22">Contacts<i class="fa-brands fa-github-alt"></i></a>
+                <a href="/about">About me</a>
+            </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>All Rights Reserved</footer>
+</body>
+</html>
